@@ -1,20 +1,61 @@
-.floatleft {
-    float: left;
+
+#bar {
+    display: block;
+    background-color: purple;
+    display: inline-block;
+    width: 98vw;
+    border: 3px solid violet;
+    border-radius: 5px;
+    margin: 6px;
 }
 
 .floatright {
     float: right;
 }
 
+.floatleft {
+    float: left;
+}
 
+body {
+    font-family: 'Didot', serif;
+    background-color: slategray;
+}
 
 #test {
-    display: block;
-    background-color: purple;
-    display: inline-block;
-    width: 98vw;
-    border: 3px solid violet;
+    text-align: center;
+}
+
+#testBody {
+    text-align: center;
+    padding: 12vh;
+    color: whitesmoke;
+}
+
+.class {
+    padding: 10px 8px 10px 8px;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+button {
+    border: none;
     border-radius: 6px;
-    margin: 6px;
+    color: whitesmoke;
+    background-color:purple;
+    padding: 10px 16px 10px 16px;
+    margin: 5px;
+    font-size: 18px;
+    font-family: 'Didot', serif;
+    
+}
+
+button:hover {
+    transition-duration: 1s;
+    background-color: lightcoral;
 }
 
