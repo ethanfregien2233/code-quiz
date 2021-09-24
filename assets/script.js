@@ -61,7 +61,7 @@ function endGame() {
 
 
 function wrong() {
-    timeLeft -= 15; 
+    timeLeft -= 10; 
     next();
 }
 
@@ -132,7 +132,7 @@ function resetGame() {
         Coding Quiz!
     </h1>
     <h2>
-        Click to begin   
+    Try to answer the following coding questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!  
     </h2>
     <button onclick="start()">Start Quiz</button>`;
 
